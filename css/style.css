@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body .container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0;
+  text-align: center;
+}
+body .container .heading {
+  background-color: black;
+  color: white;
+  margin-bottom: 12px;
+}
+body .container .heading h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 40px;
+  letter-spacing: 1.2px;
+  background-color: #111152;
+  color: white;
+  line-height: 60px;
+}
+@media (min-width: 993px) and (max-width: 1500px) {
+  body .container .heading h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+body .container .staticts {
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+  width: 100%;
+  color: black;
+  border: 3px solid rgba(2, 2, 235, 0.6196078431);
+  margin-bottom: 11px;
+  display: grid;
+  grid-template-columns: 30% 20% 50%;
+}
+@media (max-width: 400px) {
+  body .container .staticts {
+    grid-template-columns: 20% 20% 50%;
+  }
+}
+body .container .staticts p {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  display: inline;
+  margin-left: 19px;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+@media (max-width: 400px) {
+  body .container .staticts p {
+    font-size: 20px;
+  }
+}
+body .container .staticts .total {
+  font-size: 25px;
+  display: inline;
+  background-color: rgba(144, 151, 181, 0.831372549);
+  padding: 21px;
+  color: white;
+  border: 3px solid #ffffff;
+}
+@media (max-width: 400px) {
+  body .container .staticts .total {
+    padding: 12px;
+  }
+}
+body .container .staticts .del {
+  border-right: 3px solid #6262f2;
+  border-left: 3px solid #6262f2;
+  background-color: rgba(0, 0, 0, 0.8117647059);
+  cursor: pointer;
+}
+body .container .staticts .del i {
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+}
+@media (max-width: 400px) {
+  body .container .staticts .del i {
+    padding: 16px;
+  }
+}
+body .container .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(233px, 1fr));
+  background-color: #adb8df;
+}
+body .container .content .one, body .container .content .two, body .container .content .three, body .container .content .four {
+  background-color: #adb8df;
+  border: 3px solid white;
+  padding: 40px;
+  color: black;
+  height: 400px;
+}
+body .container .content .one h2, body .container .content .two h2, body .container .content .three h2, body .container .content .four h2 {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgba(89, 89, 100, 0.3411764706);
+  padding: 10px;
+  color: white;
+  border: 1px solid black;
+}
+body .container .content .one h3, body .container .content .two h3, body .container .content .three h3, body .container .content .four h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 83px;
+  margin-bottom: 81px;
+  white-space: nowrap;
+}
+body .container .content .one span, body .container .content .two span, body .container .content .three span, body .container .content .four span {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #111152;
+  padding: 30px;
+  border-radius: 50%;
+  border: 5px solid white;
+  color: white;
+  cursor: pointer;
+}
+body .container .slide {
+  background-color: rgba(144, 151, 181, 0.8117647059);
+  padding: 20px;
+  border: 3px solid white;
+  margin-top: 2px;
+}
+body .container .slide p {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.6784313725);
+}
+body .container .footer {
+  background-color: #111152;
+}
+body .container .footer p {
+  color: white;
+  font-size: 25px;
+  text-transform: capitalize;
+  padding: 20px;
+  letter-spacing: 1.2px;
+  line-height: 40px;
+}/*# sourceMappingURL=style.css.map */
