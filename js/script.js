@@ -20,7 +20,6 @@ $(document).ready(()=>{
                     var h2num=parseInt(h2Text)
                     h2num++
                     $(h2).text( h2num)
-                    localStorage.setItem("value2",h2num)
                     $(starts[i]).text(" ").css({
                         "fontSize":"0px",
                         "padding":"44px"
@@ -34,6 +33,8 @@ $(document).ready(()=>{
                 $(".del").click(()=>{
                     totalNum=0
                     $(total).text(totalNum)
+                    localStorage.setItem("value",0)
+                    $(".count").text(0)
                 })
                         
         }
