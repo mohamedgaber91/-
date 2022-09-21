@@ -48,7 +48,7 @@ body .container .staticts {
 }
 @media (max-width: 400px) {
   body .container .staticts {
-    grid-template-columns: 20% 20% 50%;
+    grid-template-columns: 30% 20% 50%;
   }
 }
 body .container .staticts p {
@@ -70,12 +70,14 @@ body .container .staticts .total {
   display: inline;
   background-color: rgba(144, 151, 181, 0.831372549);
   padding: 21px;
+  padding-left: 0;
   color: white;
   border: 3px solid #ffffff;
 }
 @media (max-width: 400px) {
   body .container .staticts .total {
     padding: 12px;
+    padding-left: 0;
   }
 }
 body .container .staticts .del {
@@ -92,6 +94,7 @@ body .container .staticts .del i {
 @media (max-width: 400px) {
   body .container .staticts .del i {
     padding: 16px;
+    
   }
 }
 body .container .content {

@@ -72,7 +72,7 @@ body{
             display: grid;
             grid-template-columns: 30% 20% 50%;
             @include media(mobile){
-                grid-template-columns: 20% 20% 50%;
+                grid-template-columns: 30% 20% 50%;
             }
             p{
                 font: {
@@ -94,6 +94,7 @@ body{
                 display: inline;
                 background-color: #9097b5d4;
                 padding: 21px;
+                padding-left: 0;
                 color: white;
                 border: 3px solid #ffffff;
                 @include media(mobile){
@@ -113,6 +114,7 @@ body{
                     color: white;
                     @include media(mobile){
                         padding: 16px;
+                        padding-left: 0;
                     }
                 }
 
