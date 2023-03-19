@@ -46,7 +46,7 @@ body .container .staticts {
   display: grid;
   grid-template-columns: 30% 20% 50%;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   body .container .staticts {
     grid-template-columns: 30% 20% 50%;
   }
@@ -60,7 +60,7 @@ body .container .staticts p {
   margin-right: 20px;
   white-space: nowrap;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   body .container .staticts p {
     font-size: 20px;
   }
@@ -74,7 +74,7 @@ body .container .staticts .total {
   color: white;
   border: 3px solid #ffffff;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   body .container .staticts .total {
     padding: 12px;
   }
@@ -86,24 +86,23 @@ body .container .staticts .del {
   cursor: pointer;
 }
 body .container .staticts .del i {
-  padding: 20px;
+  padding: 16px 1px 16px 0px;
   font-size: 30px;
   color: white;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   body .container .staticts .del i {
-    padding: 16px;
+    padding: 16px 1px 16px 0px;
     padding-left: 0;
   }
 }
 body .container .content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(263px, 1fr));
-  background-color: #adb8df;
   margin-top: 100px;
   margin-bottom: 100px;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   body .container .content {
     display: block;
   }
@@ -114,6 +113,7 @@ body .container .content .one, body .container .content .two, body .container .c
   padding: 40px;
   color: black;
   height: 400px;
+  margin-bottom: 20px;
 }
 body .container .content .one h2, body .container .content .two h2, body .container .content .three h2, body .container .content .four h2 {
   font-size: 25px;

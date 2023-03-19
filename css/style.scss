@@ -13,12 +13,12 @@ $back-two:#adb8df;
 
 @mixin media ($mediaType){
     @if ($mediaType == mobile){
-       @media (max-width:400px) {
+       @media (max-width:500px) {
            @content;
        }
     }
     @else if ($mediaType == tap){
-       @media (min-width:401px) and (max-width:600px) {
+       @media (min-width:501px) and (max-width:600px) {
            @content;
        }
     }
@@ -110,11 +110,11 @@ body{
                 background-color: #000000cf;
                 cursor: pointer;
                 i{
-                    padding: 20px;
+                    padding: 16px 1px 16px 0px;
                     font-size: 30px;
                     color: white;
                     @include media(mobile){
-                        padding: 16px;
+                        padding: 16px 1px 16px 0px;
                         padding-left: 0;
                     }
                 }
@@ -124,7 +124,7 @@ body{
         .content{
                 display: grid;
                 grid-template-columns: repeat(auto-fill, minmax(263px, 1fr));
-                background-color: #adb8df;
+                
                 margin-top: 100px;
                 margin-bottom: 100px;
                 @include media(mobile){
@@ -136,6 +136,7 @@ body{
                     padding: 40px;
                     color: black;
                     height: 400px;
+                    margin-bottom: 20px;
                     h2{
                         font: { 
                             size:25px;
