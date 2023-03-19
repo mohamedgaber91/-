@@ -40,7 +40,7 @@ body{
         .heading{
             background-color: $second-color;
             color: $main-color;
-            margin-bottom: 12px;
+            margin-bottom: 60px;
             h1{
                 font: {
                     size: 20px;
@@ -68,7 +68,8 @@ body{
             width: 100%;
             color: black;
             border: 3px solid #0202eb9e;
-            margin-bottom: 11px;
+            margin-bottom: 50pxpx;
+            margin-top: 100pxpx;
             display: grid;
             grid-template-columns: 30% 20% 50%;
             @include media(mobile){
@@ -122,8 +123,13 @@ body{
         }
         .content{
                 display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(233px, 1fr));
+                grid-template-columns: repeat(auto-fill, minmax(263px, 1fr));
                 background-color: #adb8df;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                @include media(mobile){
+                    display: block
+                }
                 .one,.two,.three,.four{
                     background-color: $back-two;
                     border: 3px solid white;
@@ -170,6 +176,7 @@ body{
         .slide{
             background-color: #9097b5cf;
             padding: 20px;
+            margin-top: 50px;
             border: 3px solid white;
             margin-top: 2px;
             p{
